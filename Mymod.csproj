@@ -17,6 +17,14 @@
     <None Remove="Content\Items\Tools\" />
     <None Remove="Content\Projectiles\" />
     <None Remove="Content\Projectiles\Weapons\" />
+    <None Remove="Content\NPCs\" />
+    <None Remove="Content\NPCs\TutorialAlien\" />
+    <None Remove="Content\Items\TutorialItem\" />
+    <None Remove="Content\Items\Weapons\TutorialSword\" />
+    <None Remove="Content\Items\Weapons\TutorialShortsword\" />
+    <None Remove="Content\Items\Tools\TutorialAxe\" />
+    <None Remove="Content\Items\Tools\TutorialPickaxe\" />
+    <None Remove="Content\Items\Tools\TutorialHammer\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\" />
@@ -25,5 +33,13 @@
     <Folder Include="Content\Items\Tools\" />
     <Folder Include="Content\Projectiles\" />
     <Folder Include="Content\Projectiles\Weapons\" />
+    <Folder Include="Content\NPCs\" />
+    <Folder Include="Content\NPCs\TutorialAlien\" />
+    <Folder Include="Content\Items\TutorialItem\" />
+    <Folder Include="Content\Items\Weapons\TutorialSword\" />
+    <Folder Include="Content\Items\Weapons\TutorialShortsword\" />
+    <Folder Include="Content\Items\Tools\TutorialAxe\" />
+    <Folder Include="Content\Items\Tools\TutorialPickaxe\" />
+    <Folder Include="Content\Items\Tools\TutorialHammer\" />
   </ItemGroup>
 </Project>

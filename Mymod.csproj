@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\tModLoader.targets" />
+  <PropertyGroup>
+    <AssemblyName>Mymod</AssemblyName>
+    <TargetFramework>net6.0</TargetFramework>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Content\" />
+    <None Remove="Content\Items\" />
+    <None Remove="Content\Items\Weapons\" />
+    <None Remove="Content\Items\Tools\" />
+    <None Remove="Content\Projectiles\" />
+    <None Remove="Content\Projectiles\Weapons\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\" />
+    <Folder Include="Content\Items\" />
+    <Folder Include="Content\Items\Weapons\" />
+    <Folder Include="Content\Items\Tools\" />
+    <Folder Include="Content\Projectiles\" />
+    <Folder Include="Content\Projectiles\Weapons\" />
+  </ItemGroup>
+</Project>

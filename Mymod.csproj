@@ -13,33 +13,15 @@
   <ItemGroup>
     <None Remove="Content\" />
     <None Remove="Content\Items\" />
-    <None Remove="Content\Items\Weapons\" />
-    <None Remove="Content\Items\Tools\" />
-    <None Remove="Content\Projectiles\" />
-    <None Remove="Content\Projectiles\Weapons\" />
-    <None Remove="Content\NPCs\" />
-    <None Remove="Content\NPCs\TutorialAlien\" />
-    <None Remove="Content\Items\TutorialItem\" />
-    <None Remove="Content\Items\Weapons\TutorialSword\" />
-    <None Remove="Content\Items\Weapons\TutorialShortsword\" />
-    <None Remove="Content\Items\Tools\TutorialAxe\" />
-    <None Remove="Content\Items\Tools\TutorialPickaxe\" />
-    <None Remove="Content\Items\Tools\TutorialHammer\" />
+    <None Remove="Content\Items\Consumables\" />
+    <None Remove="Content\Items\Consumables\Summon\" />
+    <None Remove="Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\" />
     <Folder Include="Content\Items\" />
-    <Folder Include="Content\Items\Weapons\" />
-    <Folder Include="Content\Items\Tools\" />
-    <Folder Include="Content\Projectiles\" />
-    <Folder Include="Content\Projectiles\Weapons\" />
-    <Folder Include="Content\NPCs\" />
-    <Folder Include="Content\NPCs\TutorialAlien\" />
-    <Folder Include="Content\Items\TutorialItem\" />
-    <Folder Include="Content\Items\Weapons\TutorialSword\" />
-    <Folder Include="Content\Items\Weapons\TutorialShortsword\" />
-    <Folder Include="Content\Items\Tools\TutorialAxe\" />
-    <Folder Include="Content\Items\Tools\TutorialPickaxe\" />
-    <Folder Include="Content\Items\Tools\TutorialHammer\" />
+    <Folder Include="Content\Items\Consumables\" />
+    <Folder Include="Content\Items\Consumables\Summon\" />
+    <Folder Include="Helpers\" />
   </ItemGroup>
 </Project>

@@ -9,7 +9,7 @@ namespace Mymod.Helpers
 	{
 		public static void Helper(Player player, int heightInTiles, int widthInTiles, int tileid, bool mute, bool forced)
 		{
-			//This stuff is for creating the bounds of the rectangle / square you are making and adjusting it depending on
+			//This stuff is for creating the bounds of the rectangle/square you are making and adjusting it depending on
 			//if it has an odd height or width
 			int UpperB = 0;
 			int LowB = 0;
@@ -20,7 +20,7 @@ namespace Mymod.Helpers
 			Vector2 ULeftC = new Vector2();
 			Vector2 LLeftC = new Vector2();
 
-			if (heightInTiles%2 == 0 && widthInTiles%2 == 0)
+			if (heightInTiles%2 == 0)
             {
 				//Bounds (Integers)
 				UpperB = (heightInTiles * 16) / -2;
@@ -37,14 +37,16 @@ namespace Mymod.Helpers
 				//Bounds (Integers)
 				UpperB = ((heightInTiles + 1) * 16) / -2;
 				LowB = ((heightInTiles + 1) * 16) / 2;
-				Main.NewText("This height of square is not acceptable yet!");
+				//Error message
+				Main.NewText("This height of square is not acceptable yet!", Color.Red);
 			}
 			if (widthInTiles % 2 != 0)
 			{
 				//Bounds (Integers)
 				RightB = ((widthInTiles + 1) * 16) / 2;
 				LeftB = ((widthInTiles + 1) * 16) / -2;
-				Main.NewText("This width of square is not acceptable yet!");
+				//Error message
+				Main.NewText("This width of square is not acceptable yet!", Color.Red);
 			}
 			URightC = new Vector2(player.position.X + (RightB - 16), player.position.Y + (UpperB + 16));
 			LRightC = new Vector2(player.position.X + (RightB - 16), player.position.Y + LowB);

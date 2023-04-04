@@ -1,3 +1,0 @@
-displayName = My Mod
-author = ME
-version = 0.1
